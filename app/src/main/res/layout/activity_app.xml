@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:text="Chat App"
+        android:textSize="25sp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/registor"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/design_button"
+        android:text="Регистрация"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/registor"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/design_button"
+        android:text="вход"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>

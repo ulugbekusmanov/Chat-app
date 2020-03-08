@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="ru.hiday.chatapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".Activities.MessageActivity"
+            android:theme="@style/AppThemeNoActionBar">
+
+
+        </activity>
+        <activity android:name=".Activities.LoginActivity" />
+        <activity
+            android:name=".Activities.MainActivity"
+            android:theme="@style/AppThemeNoActionBar">
+
+        </activity>
+        <activity android:name=".Activities.RgistorActivity" />
+        <activity
+            android:name=".Activities.AppActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

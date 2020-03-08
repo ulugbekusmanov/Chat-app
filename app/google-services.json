@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "650270900124",
+    "firebase_url": "https://chatapp-3ae5d.firebaseio.com",
+    "project_id": "chatapp-3ae5d",
+    "storage_bucket": "chatapp-3ae5d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:650270900124:android:ace410f23257bb59",
+        "android_client_info": {
+          "package_name": "ru.hiday.chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "650270900124-epo7pi5676506iolgeiqpocg1tn35pb4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ru.hiday.chatapp",
+            "certificate_hash": "13312f3cba28cec108cba45cfb023500dd041a41"
+          }
+        },
+        {
+          "client_id": "650270900124-t0pvg35gpm5asgn4i0mqrf0ff3dt1hps.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNy-295RGzAiKbSFe6JOng5hsjF03lIeE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "650270900124-t0pvg35gpm5asgn4i0mqrf0ff3dt1hps.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
